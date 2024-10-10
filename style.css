@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   height: 20.1vh;
   background-color: #FF69B4;
@@ -23,4 +29,61 @@ header {
   list-style-type: none;
   display: inline-block;
   margin: 0 4rem;
+}
+
+main {
+  background-color: #FFD9EC;
+}
+
+.texto-outubro {
+  color: #000000;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.div-outubro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 8rem;
+}
+
+.maos-outubro {
+  height: 50vh;
+  padding: 20px;
+}
+
+.div-outubro2 {
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+}
+
+.meninas {
+  width: 40vw;
+}
+
+.texto-outubro2 {
+  color: white;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.div-outubro3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 2rem;
+}
+
+.div-outubro3 img {
+  width: 22%;
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

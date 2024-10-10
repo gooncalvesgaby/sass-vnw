@@ -1,3 +1,26 @@
-body {
-  background-color: rgb(200, 160, 160);
+header {
+  height: 20.1vh;
+  background-color: #FF69B4;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.div-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+.mama-img {
+  width: 8vw;
+}
+
+.li-header {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 4rem;
 }/*# sourceMappingURL=style.css.map */

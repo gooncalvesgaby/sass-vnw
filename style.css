@@ -86,4 +86,41 @@ main {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+footer {
+  background-color: #FF69B4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  height: 4vh;
+}
+
+.imagem-rodape {
+  display: flex;
+}
+
+.icons {
+  height: 8vh;
+}
+
+.selo {
+  height: 15vh;
+}
+
+.infos {
+  color: white;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem-rodape .icons {
+  margin-right: 15px;
 }/*# sourceMappingURL=style.css.map */
